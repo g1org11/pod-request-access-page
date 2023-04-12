@@ -1,0 +1,134 @@
+@media only screen and (min-width: 780px) {
+  .background {
+    background-image: url(assets/tablet/image-host.jpg);
+    position: absolute;
+    background-size: contain;
+    background-position: top right, bottom left;
+    height: 750px;
+    mix-blend-mode: normal;
+    filter: brightness(0.79);
+  }
+
+  .content {
+    display: flex;
+    justify-content: left;
+    align-items: flex-start;
+    padding-top: 50px;
+    padding-left: 40px;
+  }
+  .logo-div img {
+    margin-bottom: 102px;
+  }
+  .information {
+    padding-top: 93px;
+    padding-right: 40px;
+    z-index: 10;
+    background-color: #121725;
+  }
+  .titles {
+    width: 100%;
+    margin-bottom: 31px;
+  }
+  .grean {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 56px;
+    text-align: left;
+    color: #54e6af;
+    text-transform: uppercase;
+  }
+  .white {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 56px;
+    text-align: left;
+    color: #ffffff;
+    text-transform: uppercase;
+  }
+  .text-p {
+    width: 445px;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 28px;
+    text-align: left;
+    margin-bottom: 33px;
+    color: #c2cbe5;
+    margin-bottom: 40px;
+  }
+  .companies-form {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+  form {
+    position: relative;
+    margin-bottom: 60px;
+  }
+  input {
+    height: 56px;
+    width: 427px;
+
+    border-radius: 28px;
+  }
+  button {
+    position: absolute;
+    top: 5px;
+    left: 43.5%;
+    height: 46px;
+    width: 162px;
+    border-radius: 28px;
+  }
+  .companies {
+    justify-content: left;
+    gap: 40px;
+  }
+  .companies img {
+    height: 28.910755157470703px;
+    width: 95.90159606933594px;
+  }
+  .dots {
+    display: block;
+    padding-left: 30px;
+    height: 104px;
+    width: 232px;
+  }
+}
+@media only screen and (min-width: 1440px) {
+  .content {
+    padding-left: 165px;
+    padding-top: 100px;
+  }
+
+  .grean,
+  .white {
+    font-size: 52px;
+    line-height: 62px;
+  }
+  .background {
+    margin-top: 130px;
+    background-image: url(assets/desktop/image-host.jpg);
+    position: absolute;
+    background-size: contain;
+    background-position: top right, bottom left;
+    height: 750px;
+    mix-blend-mode: normal;
+    filter: brightness(0.79);
+  }
+  .information {
+    padding-top: 88px;
+    padding-right: 60px;
+    z-index: 10;
+    background-color: #121725;
+  }
+  .dots {
+    display: block;
+    position: absolute;
+    right: 0;
+    top: 85%;
+    z-index: 15;
+  }
+  button {
+    left: 40%;
+  }
+}

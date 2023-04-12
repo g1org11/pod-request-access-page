@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="tablet.css" />
     <title>Document</title>
   </head>
   <body>
@@ -20,7 +21,7 @@
             <h1 class="white">everywhere.</h1>
           </div>
           <div class="text">
-            <p>
+            <p class="text-p">
               Upload your audio to Pod with a single click. We’ll then distribute your podcast to
               Spotify, Apple Podcasts, Google Podcasts, Pocket Casts and more!
             </p>
@@ -35,11 +36,15 @@
             <form action="">
               <input type="email" placeholder="Email address" />
               <button>Request Access</button>
+              <p class="error"></p>
             </form>
           </div>
         </div>
       </div>
-      <div class="image-host"></div>
+      <div class="dots">
+        <img src="assets/desktop/bg-pattern-dots.svg" alt="" />
+      </div>
     </main>
+    <script src="main.js"></script>
   </body>
 </html>
